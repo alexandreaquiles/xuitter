@@ -12,7 +12,7 @@ Você deve implementar a **API REST com a plataforma Java** para a página princ
 - A homepage do Xuitter, mostra um feed de xuits (posts), começando com os últimos 5. Xuits mais antigos são carregados em lotes de 5 assim que o usuário faz o scroll no fim da página.
 - Os xuits mostrados são tanto os posts normais como rexuits e citações (mais detalhes abaixo)
 - Na homepage, é possível escolher entre os xuits de todo o Xuitter e apenas aqueles de pessoas que você segue.
-- Também é possível realizar novos xuits na homepage do Xuitter.
+- Também é possível realizar novos xuits na homepage do Xuitter. Mas o Xuitter tem uma restrição para fomentar a paz mundial: um usuário pode postar no máximo 2 xuits em um período de 24h da data/hora atual.
 
 Não implemente nada além do necessário. Se for preciso, faça com que as informações sejam hardcoded.
 
