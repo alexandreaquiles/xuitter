@@ -1,0 +1,29 @@
+{
+	"info": {
+		"_postman_id": "f503f4b4-06f2-4f9a-96aa-a1a56dc4f30e",
+		"name": "xuitter",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "2489523"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/piu",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/piu",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"piu"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
