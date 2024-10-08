@@ -20,9 +20,9 @@ Não implemente nada além do necessário. Se for preciso, faça com que as info
 
 Algumas funcionalidades importantes ficaram fora dessa Spring como:
 
-- Autenticação e Autorização
-- Cadastro de novo usuário
-- Perfil público dos usuários, com os seus xuits
+- Autenticação (login) e Autorização
+- Cadastro (sign up) de novo usuário
+- Perfil público dos usuários, com os seus xuits, seguidores, etc
 - Seguir outros usuários
 - ...
 
@@ -34,9 +34,9 @@ Algumas funcionalidades importantes ficaram fora dessa Spring como:
 - Podem seguir outros usuários
 - Não podem seguir a si mesmos
 
-## Xuits
+## Xuit
 
-- São apenas textuais com, no máximo, 42 caracteres
+- É apenas textual com, no máximo, 42 caracteres
 - Há 3 tipos: xuits (posts normais), rexuits e citações
 - Um rexuit permite que seja repostado um xuit original de outro usuário
 - Uma citação é um rexuit com um comentário adicional
