@@ -7,7 +7,7 @@ Xuitter é uma rede social minimalista com poucas funcionalidades. É uma volta 
 
 # O que você deve fazer
 
-Você deve implementar a **API REST com a plataforma Java** para a página principal (homepage) do Xuitter que permite:
+Você deve implementar a **API REST** para a página principal (homepage) do Xuitter que permite:
 
 - A homepage do Xuitter, mostra um feed de xuits (posts), começando com os últimos 5. Xuits mais antigos são carregados em lotes de 5 assim que o usuário faz o scroll no fim da página.
 - Os xuits mostrados são tanto os posts normais como rexuits e quotes (mais detalhes abaixo)
