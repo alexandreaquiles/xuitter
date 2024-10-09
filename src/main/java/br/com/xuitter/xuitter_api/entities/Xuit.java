@@ -38,6 +38,18 @@ public class Xuit {
     @NotNull
     private LocalDateTime createdAt;
 
+    @Deprecated
+    protected Xuit() {
+    }
+
+    public Xuit(String content, XuitType type, Xuit originalXuit, User author) {
+        this.content = content;
+        this.type = type;
+        this.originalXuit = originalXuit;
+        this.author = author;
+        this.createdAt = LocalDateTime.now();
+    }
+
     public Long getId() {
         return id;
     }

@@ -24,6 +24,25 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "http://localhost:8080/feed",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/feed",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"feed"
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }
